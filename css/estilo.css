@@ -86,6 +86,21 @@ a{
     margin-left: 23px;
 }
 
+.header-links-style:hover{
+    text-decoration: underline #10dfc2;
+    color: #10dfc2;
+    text-align: center;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+.header-links-style-last-one:hover{
+    text-decoration: underline #10dfc2;
+    color: #10dfc2;
+    margin-left: 23px;
+}
+
+
 .header-div3{
     flex-basis: 213px;
     margin-top: 29px;
@@ -102,6 +117,18 @@ a{
     color: #FFFFFF;
     border-radius: 15px;
     border: 0;
+}
+
+.header-button:hover{
+    width: 213px;
+    height: 42px;
+    padding: 10px 70px 10px 70px;
+    background: #FFFFFF no-repeat;
+    font-size: 18px;
+    text-shadow: 0px 0px 1.5px #10dfc2;
+    color: #10dfc2;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #10dfc2;    
 }
 
 h1{
@@ -436,6 +463,19 @@ h2{
     margin-top: 16px;
 }
 
+.button-default:hover{
+    width: 100px;
+    height: 35px;
+    background-color: #FFFFFF;
+    font-family: 'montserrat-semibold';
+    color: #ffb900;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 16px;
+    box-shadow: 0px 0px 8px #ffb900;
+    text-shadow: 0px 0px 1.5px #ffb900;
+}
+
 .footer{
     width: 100%;
     height: 456px;
@@ -489,6 +529,24 @@ h2{
     background-image: url(../img/Caminho\ 221.png);
     background-position-x: 144px;
     background-position-y: 8.75px;
+}
+
+.footer-button:hover{
+    width: 181px;
+    height: 35px;
+    padding: 8px 54px 8px 20px;
+    background: #4b7fc0 no-repeat;
+    font-family: 'montserrat-semibold';
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 10px;
+    text-decoration: none; 
+    background-image: url(../img/Caminho\ 221.png);
+    background-position-x: 144px;
+    background-position-y: 8.75px;
+    box-shadow: 0px 0px 10px #FFFFFF;
+    text-shadow: 0px 0px 1.5px #FFFFFF;
 }
 
 .footer-div2{
