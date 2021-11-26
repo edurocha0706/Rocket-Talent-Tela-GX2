@@ -123,7 +123,7 @@ a{
     width: 213px;
     height: 42px;
     padding: 10px 70px 10px 70px;
-    background: #FFFFFF no-repeat;
+    background: #dafffb no-repeat;
     font-size: 18px;
     text-shadow: 0px 0px 1.5px #10dfc2;
     color: #10dfc2;
@@ -272,6 +272,14 @@ h2{
 .section3-div1, .section3-div2, .section3-div3, .section3-div4{
     width: 262px;
     height: 250px;
+    background-color: #fafafa;
+    box-shadow: 0px 0px 10px #00000029;
+    border-radius: 5px;
+}
+
+.section3-div1:hover, .section3-div2:hover, .section3-div3:hover, .section3-div4:hover{
+    width: 262px;
+    height: 250px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 10px #00000029;
     border-radius: 5px;
@@ -387,14 +395,6 @@ h2{
     margin-top: 0;
 }
 
-.section5-div1 p{
-    font-family: 'montserrat-semibold';
-    color: #032624;
-    font-size: 16px;
-    line-height: 23px;
-    letter-spacing: 0px;
-}
-
 .section5-list{
     list-style: none;   
     margin: 0;
@@ -466,14 +466,14 @@ h2{
 .button-default:hover{
     width: 100px;
     height: 35px;
-    background-color: #FFFFFF;
+    background-color: #fff8e7;
     font-family: 'montserrat-semibold';
     color: #ffb900;
     border: 0;
     border-radius: 10px;
     margin-top: 16px;
     box-shadow: 0px 0px 8px #ffb900;
-    text-shadow: 0px 0px 1.5px #ffb900;
+
 }
 
 .footer{
@@ -535,7 +535,7 @@ h2{
     width: 181px;
     height: 35px;
     padding: 8px 54px 8px 20px;
-    background: #4b7fc0 no-repeat;
+    background: #9cc9ff no-repeat;
     font-family: 'montserrat-semibold';
     font-size: 16px;
     color: #FFFFFF;
