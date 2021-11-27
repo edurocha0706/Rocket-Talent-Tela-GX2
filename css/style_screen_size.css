@@ -1,4 +1,4 @@
-@media screen and (max-width: 1272px){
+@media screen and (max-width: 1300px){
     body{
         font-family: 'montserrat-regular';
     }
@@ -167,5 +167,57 @@
         margin-top: 30.5px;
         margin-right: 20px;
         margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 1700px){
+   
+    .header-flexbox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0px 200px 0px 200px;
+    }
+
+    .section1-flexbox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0px 200px 0px 200px;
+    }
+        
+    .section2-flexbox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0px 200px 0px 200px;
+    }
+    
+    .section3-flexbox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 50px 315px 50px 316px;
+    }
+    
+    .section4-flexbox, .section5-flexbox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0px 200px 0px 200px;
+    }
+        
+    .section6-flexbox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0px 200px 0px 200px;
+    }
+     
+    .footer-flexbox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0px 200px 0px 200px;
     }
 }
