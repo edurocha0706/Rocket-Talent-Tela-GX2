@@ -80,18 +80,19 @@ a{
     margin-right: 23px;
 }
 
-.header-links-style-last-one{
-    text-decoration: none;
-    color: #1c1c1d;
-    margin-left: 23px;
-}
-
 .header-links-style:hover{
     text-decoration: underline #10dfc2;
     color: #10dfc2;
     text-align: center;
     margin-left: 23px;
     margin-right: 23px;
+}
+
+
+.header-links-style-last-one{
+    text-decoration: none;
+    color: #1c1c1d;
+    margin-left: 23px;
 }
 
 .header-links-style-last-one:hover{
