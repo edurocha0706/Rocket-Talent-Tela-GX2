@@ -367,12 +367,7 @@
     }
 }
 
-@media screen and (min-width: 1715px){ /*para telas maiores que o padrão*/
-    body{
-        font-family: 'montserrat-regular';
-        background-color: green;
-    }
-
+@media screen and (min-width: 1715px){
     .header-flexbox{
         display: flex;
         flex-direction: row;
